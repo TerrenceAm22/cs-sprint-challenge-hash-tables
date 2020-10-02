@@ -1,6 +1,7 @@
 def has_negatives(a):
     """
-    
+    Function that prints
+    numbers with corresponding negatives
     """
     # Your code here
     result = []

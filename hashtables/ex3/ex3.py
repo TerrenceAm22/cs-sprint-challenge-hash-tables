@@ -2,7 +2,13 @@ def intersection(arrays):
     """
     YOUR CODE HERE
     """
-    # Your code here
+    result = []
+    num_dict = {}
+    
+    for array in arrays:
+        print(array)
+    
+    print(num_dict)
 
     return result
 

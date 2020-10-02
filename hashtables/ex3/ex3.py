@@ -2,15 +2,22 @@ def intersection(arrays):
     """
     YOUR CODE HERE
     """
-    result = []
-    num_dict = {}
-    
-    for array in arrays:
-        print(array)
-    
-    print(num_dict)
+    result = {}
+    num_dict = []
 
-    return result
+    for i in arrays:
+        for x in i:
+            if x in result:
+                result[x] += 1
+            else:
+                result[x] = 1
+    for n in result:
+        if result[n] == len(arrays):
+            num_dict.append(n)
+            
+            
+
+    return num_dict
 
 
 if __name__ == "__main__":
